@@ -18,8 +18,7 @@ void mostrar_informacion(int* ptr) {
 
 void liberar_memoria(int* ptr) {
     free(ptr);
-    ptr = NULL;
-}
+    ptr = NULL;}
 
 int main() {
     int* puntero = asignar_memoria(5);
